@@ -23,8 +23,32 @@ Tudo isso é animado em tempo real utilizando a classe `FuncAnimation` da biblio
   - **Painel inferior:** tanques como barras cheias representando volume atual.
 - Estrutura modular, pronta para receber melhorias (efeitos visuais, exportação de vídeo etc.).
 
+## Apresentação
+
+## 🎞️ Animação dos Tanques
+
+<p align="center">
+  <img src="gif/water_tanks.gif" alt="Animação dos Tanques" width="600">
+</p>
+
+
 ## 📖 Como Executar
 1. Clone este repositório:
    ```bash
    git clone https://github.com/jsnevt/water_tanks.git
    cd water_tanks
+2. Crie o ambiente virtual
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Linux/Mac
+   venv\Scripts\activate      # Windows
+   pip install -r requirements.txt
+3. Rode o programa
+   ```bash
+   python python_water_tanks.py
+
+## Licence
+Este projeto está licenciado sob a licença MIT.
+© 2022 - Jason Santos
+
+
